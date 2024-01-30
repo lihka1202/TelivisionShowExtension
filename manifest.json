@@ -4,16 +4,17 @@
   "description": "Search for your fav TV shows",
   "version": "1.0",
   "icons": {
-    "16": "telivision.jpeg",
-    "48": "telivision.jpeg",
-    "128": "telivision.jpeg"
+    "16": "tv1.png",
+    "48": "tv1.png",
+    "128": "tv1.png"
   },
   "action": {
-    "default_icon": "telivision.jpeg",
+    "default_icon": "tv1.png",
     "default_title": "TV Search",
     "default_popup": "popup/popup.html"
   },
   "background": {
     "service_worker": "background.js"
-  }
+  },
+  "permissions": ["contextMenus"]
 }
