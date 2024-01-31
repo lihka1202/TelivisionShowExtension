@@ -9,7 +9,7 @@ chrome.runtime.onInstalled.addListener(() => {
     console.log(event);
     chrome.tabs.create({
       active: true,
-      url: 'https://www.google.com',
+      url: 'https://www.amazon.com',
     });
   });
 });
